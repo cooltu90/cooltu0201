@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="sub" format="reference" />
+    <attr name="title" format="string" />
+    <attr name="icon_size" format="dimension" />
+    <attr name="corner_radius" format="dimension" />
+    <attr name="bg_radius" format="dimension" />
+    <attr name="bg_top_left_radius" format="dimension" />
+    <attr name="bg_top_right_radius" format="dimension" />
+    <attr name="bg_bottom_left_radius" format="dimension" />
+    <attr name="bg_bottom_right_radius" format="dimension" />
+    <attr name="roundBgColor" format="color|reference" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="strokeColor" format="color|reference" />
+    <attr name="is_hidden_when_shadow_click" format="boolean" />
+    <attr name="is_hidden_when_back_click" format="boolean" />
+    <attr name="stop_animation" format="boolean" />
+
+    <declare-styleable name="CoreView">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="CoreLinearLayout">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="CoreRelativeLayout">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="RoundTextView">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="CoreImageView">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="RoundEditText">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="RoundEditText1">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+    </declare-styleable>
+    <declare-styleable name="CoreScaleView">
+        <attr name="maxScale" format="float" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+        <attr name="labelBgColor" format="color|reference" />
+        <attr name="labelTextColor" format="color|reference" />
+        <attr name="labelRow" format="integer" />
+        <attr name="labelLeft" format="dimension" />
+        <attr name="labelH" format="dimension" />
+        <attr name="labelRadius" format="dimension" />
+        <attr name="labelSize" format="dimension" />
+        <attr name="labelPadding" format="dimension" />
+        <attr name="labelDivider" format="dimension" />
+        <attr name="labelTop" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LayerView">
+        <attr name="is_hidden_when_shadow_click" />
+        <attr name="is_hidden_when_back_click" />
+        <attr name="stop_animation" />
+    </declare-styleable>
+
+    <declare-styleable name="Layer">
+        <attr name="is_hidden_when_shadow_click" />
+        <attr name="is_hidden_when_back_click" />
+        <attr name="stop_animation" />
+    </declare-styleable>
+
+    <declare-styleable name="CoreEditDialogView">
+        <attr name="title" />
+        <attr name="android:hint" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+
+    <declare-styleable name="CoreToastDialogView">
+        <attr name="android:text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CoreDialogView">
+        <attr name="title" />
+        <attr name="subTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="FloatingButton">
+        <attr name="icon_size" />
+        <attr name="sub_icon_size" format="dimension" />
+        <attr name="icon_padding" format="dimension" />
+        <attr name="icon_margin" format="dimension" />
+        <attr name="text_Padding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FloatingSubButton">
+        <attr name="icon_size" />
+        <attr name="icon" format="reference" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TagTextView">
+        <attr name="android:textSize" format="dimension" />
+        <attr name="android:text" format="string" />
+        <attr name="android:textColor" format="color|reference" />
+        <attr name="bgColor" format="color|reference" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="corner_radius" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="android:radius" />
+        <attr name="android:topLeftRadius" />
+        <attr name="android:topRightRadius" />
+        <attr name="android:bottomLeftRadius" />
+        <attr name="android:bottomRightRadius" />
+    </declare-styleable>
+
+</resources>

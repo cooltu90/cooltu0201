@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="reportTv" type="id" />
+    <item name="deleteItemBt" type="id" />
+    <item name="deleteItemBt1" type="id" />
+<!--    <item name="rgItem" type="id" />-->
+</resources>

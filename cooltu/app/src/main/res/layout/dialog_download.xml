@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_dialog">
+
+    <TextView
+        android:id="@+id/progressTv"
+        style="@style/dialog_sub_title"
+        android:text="正在下载 0.00%" />
+
+
+    <TextView
+        android:id="@+id/speedTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dialog_default_margin"
+        android:paddingRight="@dimen/dialog_default_margin"
+        android:text="速度 --/s"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/restTimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dialog_default_margin"
+        android:paddingRight="@dimen/dialog_default_margin"
+        android:text="剩余时间 00:00:00"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="@dimen/dialog_default_margin"
+        android:layout_marginRight="@dimen/dialog_default_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ccc" />
+
+            <View
+                android:id="@+id/progressView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#26AE61" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sizeTv"
+        style="@style/dialog_sub_title"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16.66dp"
+        android:gravity="right"
+        android:text="--/--" />
+
+
+</LinearLayout>

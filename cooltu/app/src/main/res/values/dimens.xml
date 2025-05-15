@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xxx">10dp</dimen>
+    <dimen name="dialog_default_margin">23.66dp</dimen>
+</resources>
